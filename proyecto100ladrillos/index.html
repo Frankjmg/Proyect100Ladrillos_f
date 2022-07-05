@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>100 Ladrillos</title>
+  </head>
+  <body>
+    <!-- Crear una barra de navegacion -->
+    <nav>
+      <p class="welcome">Inicia sesion</p>
+      <img src="/Imagenes/logo.png" alt="logo" class="logo" />
+      <a href="https://www.100ladrillos.com/" class="biginning">Inicio</a>
+      <a href="https://www.100ladrillos.com/how-it-works" class="how__works"
+        >Cómo funciona</a
+      >
+      <form class="login__nav">
+        <input
+          type="text"
+          placeholder="Usuario"
+          class="login__input login__input--user"
+        />
+        <input
+          type="text"
+          placeholder="Contraseña"
+          class="login__input login__input--password"
+        />
+        <button class="login__btn">Iniciar</button>
+      </form>
+    </nav>
+
+    <section id="split__screen">
+      <div class="background__left">
+        <form class="form">
+          <legend>Crear Cuenta</legend>
+
+          <ul>
+            <p>La Contraseña debera contener:</p>
+            <li>Longitud de 6 maximo 10</li>
+            <li>Una letra mayuscula</li>
+            <li>Un numero</li>
+          </ul>
+          <p>
+            Nombre <br />
+            <input
+              type="text"
+              class="formData Name"
+              name="Name"
+              placeholder="Solo letras (a-z)(A-Z)"
+            />
+          </p>
+          <p>
+            Correo <br />
+            <input
+              type="email"
+              class="formData email"
+              name="email"
+              placeholder="Ingresa un correo valido"
+            />
+          </p>
+          <p>
+            Contraseña <br />
+            <input
+              type="text"
+              class="formData first__password--input"
+              name="firstPassword"
+              ,
+              placeholder="Ingresa una Contraseña de min 6 digitos"
+            />
+          </p>
+          <p class="second__password">
+            Verificar Contraseña <br />
+            <input
+              type="text"
+              class="formData second__password--input"
+              name="secondPassword"
+              ,
+              placeholder="Ingresa nuevamente tu contraseña"
+            />
+          </p>
+          <button class="btnCreate__account">Crear cuenta</button>
+        </form>
+      </div>
+      <div class="background__right"></div>
+    </section>
+
+    <div>
+      <footer class="footer__page">
+        <a href="">
+          <img
+            src="/Imagenes/face_logo.jpg"
+            alt="Facebook"
+            class="face__logo"
+          />
+        </a>
+        <a href="">
+          <img
+            src="/Imagenes/instagram_logo.jpg"
+            alt="instagram_logo"
+            class="insta__logo"
+          />
+        </a>
+        <a href="https://www.100ladrillos.com/">
+          <img
+            src="/Imagenes/logo.png"
+            alt="pagina_logo"
+            class="pagina__logo"
+          />
+        </a>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+/* general */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 75%;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 15px;
+  margin: 0;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#9194cb 0.5px, transparent 0.5px),
+    radial-gradient(#9194cb 0.5px, #e5e5f7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* barra de navegacion */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  background-color: #b2b2de;
+  border-radius: 20px;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+  height: 60px;
+}
+
+.biginning,
+.how__works {
+  font-size: 20px;
+}
+
+.welcome {
+  font-size: large;
+  margin-left: 20px;
+}
+
+.login__nav {
+  display: inline;
+}
+
+.login__input {
+  border: none;
+  padding: 8px 10px;
+  font-size: 15px;
+  font-family: inherit;
+  text-align: center;
+  width: 150px;
+  border-radius: 20px;
+  color: inherit;
+  border: 1px solid rgb(35, 33, 33);
+}
+
+.login__input::placeholder {
+  color: #bbb;
+}
+
+.background__right {
+  background-image: url(/Imagenes/fondo.jpg);
+  background-size: cover;
+  width: 60%;
+  height: 75vh;
+  border-radius: 20px 0 0 20px;
+  margin: auto;
+  margin-top: 15px;
+  opacity: 100;
+}
+
+#split__screen {
+  display: flex;
+}
+
+/* creacion de cuenta */
+.background__left {
+  background-color: #cccce0;
+  width: 50%;
+  opacity: 100;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-right: 5px;
+  height: 75vh;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+  margin-top: 16%;
+  height: 75vh;
+
+  transition: all 2s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+.Name {
+  border: 3px solid blue;
+  outline: none;
+  width: 75%;
+}
+
+.email {
+  border: 3px solid blue;
+  outline: none;
+  width: 75%;
+}
+
+.first__password--input {
+  border: 3px solid blue;
+  outline: none;
+  width: 75%;
+}
+
+.second__password--input {
+  border: 3px solid blue;
+  outline: none;
+  width: 75%;
+}
+
+.formulario_incorrecto {
+  border: 3px solid red;
+}
+
+.formulario_correcto {
+  border: 3px solid green;
+}
+
+.second__password {
+  opacity: 0;
+}
+
+.btnCreate__account {
+  margin-top: 10px;
+}
+
+.btnCreate__account {
+  opacity: 0;
+  margin-left: 130px;
+  background-color: mediumseagreen;
+}
+
+/* pie de pagina */
+.face__logo,
+.insta__logo,
+.pagina__logo {
+  height: 45px;
+  margin-top: 3px;
+}
